@@ -1,0 +1,19 @@
+.header {
+  background-image: url('../img/boat.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  min-height: 70vh;
+
+  @media (max-width: $tablet) {
+    min-height: 100vh;
+  }
+}
+
+.header-overlay {
+  background: rgba(144, 144, 144, 0.4);
+  color: white;
+  height: 100%;
+  padding: 50px;
+  width: 100%;
+}
